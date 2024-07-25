@@ -1,0 +1,80 @@
+// Variables
+$primary-color: #007bff;
+$primary-hover-color: #0056b3;
+
+h1 {
+  text-align: center;
+  margin-top: 2rem; /* Marge au-dessus du titre principal */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6f7372;
+  padding: 1.5rem; /* Padding autour du conteneur principal */
+  width: 30rem; /* Largeur du conteneur principal */
+  margin: auto;
+  border-radius: 1rem; /* Rayon de bordure du conteneur */
+  color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 5rem; /* Largeur du logo */
+  margin-bottom: 1rem; /* Marge en dessous du logo */
+}
+
+h2 {
+  text-align: center;
+}
+
+.icon-large {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; /* Marge en dessous de l'icône */
+}
+
+.input-field {
+  width: 100%; /* Prend la largeur totale disponible */
+  max-width: 15rem; /* Limite la largeur maximale des champs input */
+  margin-bottom: 1rem; /* Marge en dessous des champs input */
+  padding: 0.5rem; /* Padding des champs input */
+  font-size: 1rem; /* Taille de police des champs input */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem; /* Marge au-dessus du conteneur de bouton */
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem; /* Padding du bouton */
+  font-size: 1rem; /* Taille de police du bouton */
+  background-color: $primary-color; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  border: none; /* Supprime la bordure */
+  border-radius: 0.5rem; /* Rayon de bordure */
+  cursor: pointer; /* Curseur indiquant l'interactivité */
+  transition: background-color 0.3s ease; /* Animation de transition */
+
+  &:hover {
+    background-color: $primary-hover-color; /* Couleur de fond du bouton au survol */
+  }
+
+  svg {
+    margin-right: 0.5rem; /* Marge à droite de l'icône dans le bouton */
+  }
+}

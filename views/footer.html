@@ -1,0 +1,106 @@
+<style>
+    /* Styles pour le footer */
+
+    footer {
+        background-color: #2c3e50;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .partners, .site-map, .contact {
+        flex: 1;
+        padding: 0 20px;
+    }
+
+    .partners p, .site-map p, .contact p {
+        font-weight: bold;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+
+    .contact p {
+        line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+        .footer-content {
+            flex-wrap: wrap;
+        }
+
+        .partners, .site-map, .contact {
+            flex-basis: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+</style>
+
+<footer>
+
+    <hr>
+    <div class="footer-content">
+        <h3>LearnZone</h3>
+
+        <div class="partners">
+            <p>Partenaires :</p>
+            <ul>
+                <li>Agence FSE | Fonds social européen</li>
+                <li>Pôle académique de Namur</li>
+            </ul>
+        </div>
+
+        <div class="site-map">
+            <p>Site map :</p>
+            <ul>
+                <li>Infos</li>
+                <li>Formations</li>
+                <li>Actualités</li>
+                <li>Partenariats</li>
+                <li>Qualité</li>
+                <li>Contact</li>
+                <li>Emploi</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <p>Contact :</p>
+            <p>LearnZone<br>
+                Adresse de l'école<br>
+                Ville, Code postal<br><br>
+                Tél : XXX/XX.XX.XX<br>
+                Email : info@learnzone.edu<br><br>
+                Ouvert du lundi au vendredi<br>
+                de 8h30 à 12h00 et de 13h30 à 17h30<br>
+                Le samedi<br>
+                de 9h00 à 12h00<br>
+                Fermé le dimanche
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

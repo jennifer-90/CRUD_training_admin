@@ -1,0 +1,393 @@
+@charset "UTF-8";
+h1 {
+  text-align: center;
+  margin-top: 2rem; /* Marge au-dessus du titre principal */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6f7372;
+  padding: 1.5rem; /* Padding autour du conteneur principal */
+  width: 30rem; /* Largeur du conteneur principal */
+  margin: auto;
+  border-radius: 1rem; /* Rayon de bordure du conteneur */
+  color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 5rem; /* Largeur du logo */
+  margin-bottom: 1rem; /* Marge en dessous du logo */
+}
+
+h2 {
+  text-align: center;
+}
+
+.icon-large {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; /* Marge en dessous de l'icône */
+}
+
+.input-field {
+  width: 100%; /* Prend la largeur totale disponible */
+  max-width: 15rem; /* Limite la largeur maximale des champs input */
+  margin-bottom: 1rem; /* Marge en dessous des champs input */
+  padding: 0.5rem; /* Padding des champs input */
+  font-size: 1rem; /* Taille de police des champs input */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem; /* Marge au-dessus du conteneur de bouton */
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem; /* Padding du bouton */
+  font-size: 1rem; /* Taille de police du bouton */
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  border: none; /* Supprime la bordure */
+  border-radius: 0.5rem; /* Rayon de bordure */
+  cursor: pointer; /* Curseur indiquant l'interactivité */
+  transition: background-color 0.3s ease; /* Animation de transition */
+}
+.btn:hover {
+  background-color: #0056b3; /* Couleur de fond du bouton au survol */
+}
+.btn svg {
+  margin-right: 0.5rem; /* Marge à droite de l'icône dans le bouton */
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6f7372;
+  padding: 2rem;
+  width: 50rem;
+  margin: auto;
+  border-radius: 5rem;
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 20rem;
+}
+
+h2 {
+  color: #e3bb74;
+  text-align: center;
+}
+
+.input-field {
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-large svg {
+  width: 3rem; /* Ajustez cette valeur selon vos besoins */
+  height: 3rem; /* Ajustez cette valeur selon vos besoins */
+}
+
+.table-container {
+  width: 90%;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table td a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.add-formation-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.add-formation-btn:hover {
+  background-color: #e3bb74;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active, a:focus {
+  outline: none;
+  border: none;
+}
+
+.deconnexion-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  right: 10%;
+  top: 20px;
+}
+
+.deconnexion-btn:hover {
+  background-color: #cc0000;
+}
+
+.navbar {
+  background-color: #2c3e50; /* Couleur de fond du menu */
+  padding: 2px; /* Espacement interne du menu ajusté */
+  justify-content: flex-start; /* Alignement des éléments sur le côté gauche */
+}
+
+.navbar-brand img {
+  width: 4rem; /* Taille du logo */
+  height: 4rem;
+  object-fit: contain; /* Ajustement du logo */
+  margin-right: 20px; /* Espacement à droite du logo ajusté */
+}
+
+.navbar-nav {
+  margin-left: 0; /* Réinitialiser la marge gauche */
+}
+
+.nav-item {
+  margin-right: 20px; /* Espacement entre les éléments du menu ajusté */
+}
+
+.nav-link {
+  color: white !important; /* Couleur du texte */
+  font-weight: bold; /* Police en gras */
+}
+
+.nav-link:hover {
+  color: #ff0000 !important; /* Couleur du texte au survol */
+}
+
+.form-control {
+  width: calc(100% - 20px); /* Largeur des champs input */
+  padding: 10px; /* Espacement intérieur */
+  margin-bottom: 10px; /* Marge en dessous des champs */
+  border: 1px solid #ccc; /* Bordure grise */
+  border-radius: 5px; /* Border radius */
+}
+
+.btn {
+  padding: 10px 20px; /* Espacement du bouton */
+  font-size: 16px; /* Taille de police */
+  background-color: #007bff; /* Fond bleu pour le bouton */
+  color: white; /* Texte blanc */
+  border: none; /* Supprimer la bordure */
+  border-radius: 5px; /* Border radius */
+  cursor: pointer; /* Curseur interactif */
+  transition: background-color 0.3s ease; /* Animation de transition */
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #e3bb74;
+}
+.btn svg {
+  margin-right: 5px; /* Marge à droite de l'icône */
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+.btn .logo {
+  width: 5rem; /* Largeur du logo */
+  margin-bottom: 1rem; /* Marge en dessous du logo */
+}
+.btn h2 {
+  color: #e3bb74;
+}
+
+.containerP {
+  text-align: center;
+  background-color: #34495e;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.containerP h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+input[type=file] {
+  display: none;
+}
+
+.labelP {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.buttonP {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonP:hover {
+  background-color: #c0392b;
+}
+
+.pdf-viewerP {
+  margin-top: 20px;
+  max-width: 80%;
+  max-height: 500px;
+  border: 2px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+.formation-details {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formation-info {
+  width: 45%;
+}
+
+.formation-description {
+  width: 45%;
+}
+
+.formation-info p,
+.formation-description p {
+  margin: 10px 0;
+}
+
+.formation-info strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formation-info a {
+  color: #ffa500;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.formation-info a:hover {
+  color: rgba(40, 237, 8, 0.42);
+}
+
+/*
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+*/
+
+/*# sourceMappingURL=style.css.map */

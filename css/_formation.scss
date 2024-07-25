@@ -1,0 +1,45 @@
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+.formation-details {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formation-info {
+  width: 45%;
+}
+
+.formation-description {
+  width: 45%;
+}
+
+.formation-info p,
+.formation-description p {
+  margin: 10px 0;
+}
+
+.formation-info strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formation-info a {
+  color: #ffa500;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.formation-info a:hover {
+  color: rgba(40, 237, 8, 0.42);
+}

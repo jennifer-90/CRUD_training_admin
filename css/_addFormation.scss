@@ -1,0 +1,43 @@
+
+.form-control {
+  width: calc(100% - 20px); /* Largeur des champs input */
+  padding: 10px; /* Espacement intérieur */
+  margin-bottom: 10px; /* Marge en dessous des champs */
+  border: 1px solid #ccc; /* Bordure grise */
+  border-radius: 5px; /* Border radius */
+}
+
+.btn {
+  padding: 10px 20px; /* Espacement du bouton */
+  font-size: 16px; /* Taille de police */
+  background-color: #007bff; /* Fond bleu pour le bouton */
+  color: white; /* Texte blanc */
+  border: none; /* Supprimer la bordure */
+  border-radius: 5px; /* Border radius */
+  cursor: pointer; /* Curseur interactif */
+  transition: background-color 0.3s ease; /* Animation de transition */
+  text-decoration: none;
+
+  &:hover {
+    background-color: #e3bb74 /* Fond bleu foncé au survol */
+  }
+
+  svg {
+    margin-right: 5px; /* Marge à droite de l'icône */
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 5rem; /* Largeur du logo */
+    margin-bottom: 1rem; /* Marge en dessous du logo */
+  }
+
+  h2{
+    color: #e3bb74;
+  }
+
+}
