@@ -10,3 +10,6 @@ Fonctionnalités:
 - Suppression de formations existantes.
 - Modification de formations.
 - Visualisation des formations.
+
+[ NOM : "Admin"]
+[MDP : "admin1234"]
